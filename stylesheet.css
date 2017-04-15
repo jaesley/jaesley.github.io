@@ -1,8 +1,10 @@
 body {
-	background-color: #101010;
+	background-color: #0f0f0f;
 	color: #f0f0f0;
 	font-family: Verdana, sans-serif;
 	text-align: justify;
+	margin: 0px;
+	padding: 25px;
 }
 
 h1 {
@@ -72,7 +74,6 @@ a:link {
 		width: 100%;
 		max-width: 100%;
 		max-height: 100%;
-
 	}
 
 	figure {
@@ -95,5 +96,41 @@ label {
 }
 
 footer {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: block;
+	margin: auto;
+}
+
+#contact-figure {
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 100px;
+}
+
+#contact-img {
+	margin: auto;
+	display: block;
+	z-index: -1;
+}
+
+#contact-info {
+	display: block;
+	margin: auto;
 	text-align: center;
+	margin-top: -100px;
+}
+
+@media screen and (width: 768px) {
+	#contact-img {
+		width: 67%;
+	}
+
+	#contact-info {
+		font-size: larger;
+		margin-top: -150px;
+	}
 }
