@@ -1,0 +1,47 @@
+body {
+	font-family: Verdana, sans-serif;
+	text-align: justify;
+	background-color: #101010;
+	color: #f0f0f0;
+}
+
+h1 {
+	text-align: center;
+	font-size: xx-large;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: larger;
+}
+
+ul li {
+	list-style-type: square;
+}
+
+ol li {
+
+}
+
+img {
+	height: 400px;
+}
+
+aside {
+	display: inline;
+	font-size: small;
+	font-style: italic;
+	color: #808080;
+}
+
+h3 {
+	display: inline;
+	font-style: italic;
+	font-size: small;
+	font-weight: lighter;
+}
+
+#top-shows-heading {
+	display: inline;
+}
