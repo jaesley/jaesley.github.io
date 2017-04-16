@@ -49,6 +49,7 @@ figure {
 	float: left;
 	margin-top: 0px;
 	display: table;
+	margin-left: 0px;
 }
 
 .imgcaption {
@@ -61,7 +62,7 @@ figure {
 	position: relative;
 }
 
-.artist {
+.artist, #thanks {
 	margin-left: 0px;
 	min-height: 450px;
 	position: relative;
@@ -76,26 +77,12 @@ a:link {
 	color: gold;
 }
 
-@media screen and (max-width: 800px) {
-	img {
-		width: 100%;
-		max-width: 100%;
-		max-height: 100%;
-	}
-
-	figure {
-		padding: 0px;
-		display: block;
-		width: 100%;
-		margin-left: 0px;
-	}
-}
-
 form {
 	background-color: white;
 	padding: 25px;
 	border: 10px solid #808080;
 	color: #101010;
+	background-image: url("images/background.jpg");
 }
 
 label {
@@ -131,13 +118,50 @@ footer {
 	margin-top: -100px;
 }
 
-@media screen and (width: 768px) {
+@media screen and (max-width: 600px) {
+	img {
+		width: 100%;
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	figure {
+		padding: 0px;
+		display: inline-block;
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.imgcaption {
+		display: inline;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	img {
+		width: 100%;
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	figure {
+		padding: 0px;
+		display: block;
+		width: 100%;
+		margin-left: 0px;
+	}
+
 	#contact-img {
 		width: 67%;
+		height: 67%;
 	}
 
 	#contact-info {
 		font-size: larger;
 		margin-top: -150px;
+	}
+
+	.imgcaption {
+		display: inline;
 	}
 }
