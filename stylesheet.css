@@ -48,6 +48,13 @@ aside {
 figure {
 	float: left;
 	margin-top: 0px;
+	display: table;
+}
+
+.imgcaption {
+	display: table-caption;
+	caption-side: bottom;
+	text-align-last: right;
 }
 
 .reasons {
